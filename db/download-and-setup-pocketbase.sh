@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Default PocketBase version
-PB_VERSION=${1:-0.35.0}
+PB_VERSION=${1:-0.35.1}
 
 # Load env vars
 if [ -f .env ]; then
@@ -62,6 +62,5 @@ fi
 echo "🛠️ Upserting superuser via CLI..."
 ./pocketbase superuser upsert "$PB_SUPERUSER_EMAIL" "$PB_SUPERUSER_PASSWORD"
 
-# Start the server
-echo "🚀 Starting PocketBase on port $PB_PORT..."
-./pocketbase serve --http="0.0.0.0:$PB_PORT"
+# Final message to indicate readiness
+echo "🚀 Ready. Run npm run dev"
