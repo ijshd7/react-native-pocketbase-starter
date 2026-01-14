@@ -56,7 +56,7 @@ renativebase/
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone git@github.com:ijshd7/react-native-pocketbase-starter.git
 cd renativebase
 ```
 
@@ -283,7 +283,7 @@ Edit `ui/app.config.js` to customize:
 
 ## 📄 License
 
-[Add your license here]
+MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 🆘 Troubleshooting
 
