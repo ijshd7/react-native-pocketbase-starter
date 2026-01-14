@@ -158,7 +158,7 @@ The app includes a pre-built authentication system:
 
 1. **Unauthenticated Routes** (`app/(unauthenticated)/`):
    - Login page (`/`)
-   - Signup page (if implemented)
+   - Signup page (`/signup`)
 
 2. **Authenticated Routes** (`app/(authenticated)/`):
    - Protected routes that require authentication
