@@ -19,7 +19,7 @@ A **ready-to-use React Native monorepo** template with Expo, React Native Reusab
 
 Before you begin, ensure you have the following installed:
 
-- **Node.js** (v18 or higher)
+- **Node.js** (v22 or higher)
 - **npm** or **yarn**
 - **Docker** and **Docker Compose** (for containerized development)
 - **Expo CLI** (optional, for direct development)
